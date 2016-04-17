@@ -1,0 +1,9 @@
+database:
+  user:
+  password:
+  db:
+github_credential:
+  username:
+  password: 
+awesome-go:
+  url: https://raw.githubusercontent.com/avelino/awesome-go/master/README.md
