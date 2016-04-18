@@ -11,7 +11,17 @@ import yaml
 with open('config.yml', 'r') as config_file:
     config = yaml.load(config_file)
 
-conn = pymysql.connect(host='127.0.0.1', charset='utf8', use_unicode=True, unix_socket='/tmp/mysql.sock', user=config['database']['user'], passwd=config['database']['password'], db=config['database']['db'], autocommit=True)
+conn = pymysql.connect(
+    host='127.0.0.1',
+    charset='utf8',
+    use_unicode=True,
+    unix_socket='/tmp/mysql.sock',
+    user=config['database']['user'],
+    passwd=None,
+    db=config['database']['db'],
+    autocommit=True
+    )
+    
 cur = conn.cursor()
 
 f = open('awesome_go_github_repos.txt', 'r').read()

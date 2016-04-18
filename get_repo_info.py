@@ -10,7 +10,17 @@ import yaml
 with open('config.yml', 'r') as config_file:
     config = yaml.load(config_file)
 
-conn = pymysql.connect(host='127.0.0.1', charset='utf8', use_unicode=True, unix_socket='/tmp/mysql.sock', user=config['database']['user'], passwd=None, db=config['database']['db'], autocommit=True)
+conn = pymysql.connect(
+    host='127.0.0.1',
+    charset='utf8',
+    use_unicode=True,
+    unix_socket='/tmp/mysql.sock',
+    user=config['database']['user'],
+    passwd=None,
+    db=config['database']['db'],
+    autocommit=True
+    )
+    
 cur = conn.cursor()
 
 repo_table_name = 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
