@@ -61,4 +61,4 @@ f.write(soup.prettify())
 del f
 
 subprocess.check_call(
-['pandoc', 'awesome_go_with_repo_info.html', '-f', 'html', '-t', 'markdown_github', '-s', '--toc', '-o', 'awesome_go_with_repo_info.md'])
+['pandoc', 'awesome_go_with_repo_info.html', '-f', 'html', '-t', 'markdown_github', '-s', '-o', 'awesome_go_with_repo_info.md'])
