@@ -60,7 +60,7 @@ def generating_stats(stats_type, time_type, current, num=None):
         table_list.append([simplified_name, repo_url, str(increased_star_count), str(stars_count), description])
 
     html_str = '<h2>Most %s repos in the past %s (from %s to %s)</h2>' % (header_text, time_type, time_period, current)
-    table_html_str = '<table><tr><th>Repo name</th><th>&#8593%s </th><th>:star:</th><th>Description</th></tr>' % (table_header_text)
+    table_html_str = '<table><tr><th>Repo name</th><th>:arrow_up:%s </th><th>:star:</th><th>Description</th></tr>' % (table_header_text)
 
     for row in table_list:
         table_html_str += '<tr>'

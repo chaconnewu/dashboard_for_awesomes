@@ -8,66 +8,66 @@
 Most starred repos in the past week (from 2016-04-11 to 2016-04-18)
 -------------------------------------------------------------------
 
-| Repo name                                                                | ↑:star: | :star: | Description                                                                                              |
-|--------------------------------------------------------------------------|---------|--------|----------------------------------------------------------------------------------------------------------|
-| [echo](https://github.com/labstack/echo)                                 | 82      | 4113   | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.        |
-| [fzf](https://github.com/junegunn/fzf)                                   | 81      | 4667   | :cherry\_blossom: A command-line fuzzy finder written in Go                                              |
-| [gofeed](https://github.com/mmcdole/gofeed)                              | 77      | 372    | Parse RSS and Atom feeds in Go                                                                           |
-| [caddy](https://github.com/mholt/caddy)                                  | 64      | 5525   | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                              |
-| [prometheus](https://github.com/prometheus/prometheus)                   | 58      | 4380   | The Prometheus monitoring system and time series database.                                               |
-| [kubernetes](https://github.com/kubernetes/kubernetes)                   | 56      | 13904  | Container Cluster Manager from Google                                                                    |
-| [vegeta](https://github.com/tsenart/vegeta)                              | 42      | 3699   | HTTP load testing tool and library. It's over 9000!                                                      |
-| [beego](https://github.com/astaxie/beego)                                | 33      | 6815   | beego is an open-source, high-performance web framework for the Go programming language.                 |
-| [awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 33      | 5340   | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python |
-| [etcd](https://github.com/coreos/etcd)                                   | 31      | 9299   | Distributed reliable key-value store for the most critical data of a distributed system                  |
+| Repo name                                                                | :arrow\_up::star: | :star: | Description                                                                                              |
+|--------------------------------------------------------------------------|-------------------|--------|----------------------------------------------------------------------------------------------------------|
+| [echo](https://github.com/labstack/echo)                                 | 82                | 4113   | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.        |
+| [fzf](https://github.com/junegunn/fzf)                                   | 81                | 4667   | :cherry\_blossom: A command-line fuzzy finder written in Go                                              |
+| [gofeed](https://github.com/mmcdole/gofeed)                              | 77                | 372    | Parse RSS and Atom feeds in Go                                                                           |
+| [caddy](https://github.com/mholt/caddy)                                  | 64                | 5525   | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                              |
+| [prometheus](https://github.com/prometheus/prometheus)                   | 58                | 4380   | The Prometheus monitoring system and time series database.                                               |
+| [kubernetes](https://github.com/kubernetes/kubernetes)                   | 56                | 13904  | Container Cluster Manager from Google                                                                    |
+| [vegeta](https://github.com/tsenart/vegeta)                              | 42                | 3699   | HTTP load testing tool and library. It's over 9000!                                                      |
+| [beego](https://github.com/astaxie/beego)                                | 33                | 6815   | beego is an open-source, high-performance web framework for the Go programming language.                 |
+| [awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 33                | 5340   | A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python |
+| [etcd](https://github.com/coreos/etcd)                                   | 31                | 9299   | Distributed reliable key-value store for the most critical data of a distributed system                  |
 
 Most active repos in the past week (from 2016-04-11 to 2016-04-18)
 ------------------------------------------------------------------
 
-| Repo name                                              | ↑Pushes | :star: | Description                                                                                       |
-|--------------------------------------------------------|---------|--------|---------------------------------------------------------------------------------------------------|
-| [cockroach](https://github.com/cockroachdb/cockroach)  | 46      | 6698   | A Scalable, Survivable, Strongly-Consistent SQL Database                                          |
-| [kubernetes](https://github.com/kubernetes/kubernetes) | 44      | 13904  | Container Cluster Manager from Google                                                             |
-| [etcd](https://github.com/coreos/etcd)                 | 41      | 9299   | Distributed reliable key-value store for the most critical data of a distributed system           |
-| [golf](https://github.com/dinever/golf)                | 34      | 109    | The Golf web framework. :golf:                                                                    |
-| [tidb](https://github.com/pingcap/tidb)                | 32      | 3797   | TiDB is a distributed NewSQL database compatible with MySQL protocol                              |
-| [minio](https://github.com/minio/minio)                | 25      | 1072   | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License |
-| [delve](https://github.com/derekparker/delve)          | 18      | 3484   | Delve is a debugger for the Go programming language.                                              |
-| [jwt-go](https://github.com/dgrijalva/jwt-go)          | 16      | 1085   | Golang implementation of JSON Web Tokens (JWT)                                                    |
-| [vim-go](https://github.com/fatih/vim-go)              | 16      | 4602   | Go development plugin for Vim                                                                     |
-| [gorethink](https://github.com/dancannon/gorethink)    | 14      | 860    | Go language driver for RethinkDB                                                                  |
+| Repo name                                              | :arrow\_up:Pushes | :star: | Description                                                                                       |
+|--------------------------------------------------------|-------------------|--------|---------------------------------------------------------------------------------------------------|
+| [cockroach](https://github.com/cockroachdb/cockroach)  | 46                | 6698   | A Scalable, Survivable, Strongly-Consistent SQL Database                                          |
+| [kubernetes](https://github.com/kubernetes/kubernetes) | 44                | 13904  | Container Cluster Manager from Google                                                             |
+| [etcd](https://github.com/coreos/etcd)                 | 41                | 9299   | Distributed reliable key-value store for the most critical data of a distributed system           |
+| [golf](https://github.com/dinever/golf)                | 34                | 109    | The Golf web framework. :golf:                                                                    |
+| [tidb](https://github.com/pingcap/tidb)                | 32                | 3797   | TiDB is a distributed NewSQL database compatible with MySQL protocol                              |
+| [minio](https://github.com/minio/minio)                | 25                | 1072   | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License |
+| [delve](https://github.com/derekparker/delve)          | 18                | 3484   | Delve is a debugger for the Go programming language.                                              |
+| [jwt-go](https://github.com/dgrijalva/jwt-go)          | 16                | 1085   | Golang implementation of JSON Web Tokens (JWT)                                                    |
+| [vim-go](https://github.com/fatih/vim-go)              | 16                | 4602   | Go development plugin for Vim                                                                     |
+| [gorethink](https://github.com/dancannon/gorethink)    | 14                | 860    | Go language driver for RethinkDB                                                                  |
 
 Most starred repos in the past month (from 2016-03-19 to 2016-04-18)
 --------------------------------------------------------------------
 
-| Repo name                                                              | ↑:star: | :star: | Description                                                                                                                                                                                        |
-|------------------------------------------------------------------------|---------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [echo](https://github.com/labstack/echo)                               | 998     | 4113   | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.                                                                                                  |
-| [micro](https://github.com/micro/micro)                                | 648     | 1724   | A microservice toolkit                                                                                                                                                                             |
-| [vegeta](https://github.com/tsenart/vegeta)                            | 646     | 3699   | HTTP load testing tool and library. It's over 9000!                                                                                                                                                |
-| [kubernetes](https://github.com/kubernetes/kubernetes)                 | 568     | 13904  | Container Cluster Manager from Google                                                                                                                                                              |
-| [dgraph](https://github.com/dgraph-io/dgraph)                          | 550     | 1079   | Scalable, Distributed, Low Latency Graph Database                                                                                                                                                  |
-| [caddy](https://github.com/mholt/caddy)                                | 497     | 5525   | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                                                                                                                        |
-| [gin](https://github.com/gin-gonic/gin)                                | 332     | 6292   | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
-| [minio](https://github.com/minio/minio)                                | 301     | 1072   | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License                                                                                                  |
-| [cockroach](https://github.com/cockroachdb/cockroach)                  | 301     | 6698   | A Scalable, Survivable, Strongly-Consistent SQL Database                                                                                                                                           |
-| [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | 278     | 15994  | A curated list of awesome awesomeness                                                                                                                                                              |
+| Repo name                                                              | :arrow\_up::star: | :star: | Description                                                                                                                                                                                        |
+|------------------------------------------------------------------------|-------------------|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [echo](https://github.com/labstack/echo)                               | 998               | 4113   | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.                                                                                                  |
+| [micro](https://github.com/micro/micro)                                | 648               | 1724   | A microservice toolkit                                                                                                                                                                             |
+| [vegeta](https://github.com/tsenart/vegeta)                            | 646               | 3699   | HTTP load testing tool and library. It's over 9000!                                                                                                                                                |
+| [kubernetes](https://github.com/kubernetes/kubernetes)                 | 568               | 13904  | Container Cluster Manager from Google                                                                                                                                                              |
+| [dgraph](https://github.com/dgraph-io/dgraph)                          | 550               | 1079   | Scalable, Distributed, Low Latency Graph Database                                                                                                                                                  |
+| [caddy](https://github.com/mholt/caddy)                                | 497               | 5525   | Fast, cross-platform HTTP/2 web server with automatic HTTPS                                                                                                                                        |
+| [gin](https://github.com/gin-gonic/gin)                                | 332               | 6292   | Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin. |
+| [minio](https://github.com/minio/minio)                                | 301               | 1072   | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License                                                                                                  |
+| [cockroach](https://github.com/cockroachdb/cockroach)                  | 301               | 6698   | A Scalable, Survivable, Strongly-Consistent SQL Database                                                                                                                                           |
+| [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) | 278               | 15994  | A curated list of awesome awesomeness                                                                                                                                                              |
 
 Most active repos in the past month (from 2016-03-19 to 2016-04-18)
 -------------------------------------------------------------------
 
-| Repo name                                                                        | ↑Pushes | :star: | Description                                                                                                 |
-|----------------------------------------------------------------------------------|---------|--------|-------------------------------------------------------------------------------------------------------------|
-| [cockroach](https://github.com/cockroachdb/cockroach)                            | 360     | 6698   | A Scalable, Survivable, Strongly-Consistent SQL Database                                                    |
-| [kubernetes](https://github.com/kubernetes/kubernetes)                           | 335     | 13904  | Container Cluster Manager from Google                                                                       |
-| [tidb](https://github.com/pingcap/tidb)                                          | 211     | 3797   | TiDB is a distributed NewSQL database compatible with MySQL protocol                                        |
-| [etcd](https://github.com/coreos/etcd)                                           | 174     | 9299   | Distributed reliable key-value store for the most critical data of a distributed system                     |
-| [gofeed](https://github.com/mmcdole/gofeed)                                      | 161     | 372    | Parse RSS and Atom feeds in Go                                                                              |
-| [vitess](https://github.com/youtube/vitess)                                      | 101     | 3398   | vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services. |
-| [echo](https://github.com/labstack/echo)                                         | 88      | 4113   | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.           |
-| [minio](https://github.com/minio/minio)                                          | 83      | 1072   | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License           |
-| [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) | 76      | 3246   | Google Go language IDE built using the IntelliJ Platform                                                    |
-| [micro](https://github.com/micro/micro)                                          | 60      | 1724   | A microservice toolkit                                                                                      |
+| Repo name                                                                        | :arrow\_up:Pushes | :star: | Description                                                                                                 |
+|----------------------------------------------------------------------------------|-------------------|--------|-------------------------------------------------------------------------------------------------------------|
+| [cockroach](https://github.com/cockroachdb/cockroach)                            | 360               | 6698   | A Scalable, Survivable, Strongly-Consistent SQL Database                                                    |
+| [kubernetes](https://github.com/kubernetes/kubernetes)                           | 335               | 13904  | Container Cluster Manager from Google                                                                       |
+| [tidb](https://github.com/pingcap/tidb)                                          | 211               | 3797   | TiDB is a distributed NewSQL database compatible with MySQL protocol                                        |
+| [etcd](https://github.com/coreos/etcd)                                           | 174               | 9299   | Distributed reliable key-value store for the most critical data of a distributed system                     |
+| [gofeed](https://github.com/mmcdole/gofeed)                                      | 161               | 372    | Parse RSS and Atom feeds in Go                                                                              |
+| [vitess](https://github.com/youtube/vitess)                                      | 101               | 3398   | vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services. |
+| [echo](https://github.com/labstack/echo)                                         | 88                | 4113   | Echo is a fast and unfancy HTTP server framework for Go (Golang). Up to 10x faster than the rest.           |
+| [minio](https://github.com/minio/minio)                                          | 83                | 1072   | Minio is an object storage server compatible with Amazon S3 and licensed under Apache 2.0 License           |
+| [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) | 76                | 3246   | Google Go language IDE built using the IntelliJ Platform                                                    |
+| [micro](https://github.com/micro/micro)                                          | 60                | 1724   | A microservice toolkit                                                                                      |
 
 Inactive repos in 2016 (no recorded events and last updated was before 2016) (22 repos)
 ---------------------------------------------------------------------------------------
