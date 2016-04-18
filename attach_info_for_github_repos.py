@@ -53,7 +53,7 @@ for li in lis:
 
             updated_days_ago = (datetime.now(pytz.utc)- updated_at_datetime).days
             tag = soup.new_tag('span')
-            tag.string = ' &#9733%d, updated %d days ago ' % (stars_count, updated_days_ago)
+            tag.string = ' &#9733 %d, updated %d days ago ' % (stars_count, updated_days_ago)
 
             a[0].insert_after(tag)
 
