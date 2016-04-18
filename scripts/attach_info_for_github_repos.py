@@ -13,6 +13,8 @@ from dateutil.parser import parse
 
 h = html.parser.HTMLParser()
 
+file_path_prefix = '../awesomes/'
+
 with open('config.yml', 'r') as config_file:
     config = yaml.load(config_file)
 
@@ -28,23 +30,27 @@ conn = pymysql.connect(
     )
 
 cur = conn.cursor()
-repo_table_name = 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
+project_name = config['current']
+repo_table_name = config[project_name]['name'] + '_' + 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
+
 # repo_table_name = 'github_repos_2016_04_17'
 
 # Load awesome-* with BeautifulSoup
-content = open('awesome-go.md', 'r').read()
+content = open(file_path_prefix + project_name + '.md', 'r').read()
 content = content.replace('] (http', '](http')
 markdown = mistune.Markdown()
 soup = BeautifulSoup(markdown(content), 'html.parser')
 
 lis = soup.find_all('li');
 
+visited = set()
+
 for li in lis:
     a = li.find_all('a')
     repo_url = a[0]['href']
+
     if len(a) > 0 and re.search('^https://github.com/[^/]+/[^/]+/?$', repo_url):
-        # count += 1
-        query = "select stargazers_count, updated_at from %s where repo_url='%s'" %(repo_table_name, repo_url)
+        query = "select stargazers_count, pushed_at from %s where repo_url='%s'" %(repo_table_name, repo_url)
         cur.execute(query)
         rows = cur.fetchall()
         if len(rows) == 1:
@@ -53,14 +59,19 @@ for li in lis:
 
             updated_days_ago = (datetime.now(pytz.utc)- updated_at_datetime).days
             tag = soup.new_tag('span')
-            tag.string = ' &#9733 %d, updated %d days ago ' % (stars_count, updated_days_ago)
+            tag.string = '| &#9733 %d, pushed %d days ago | ' % (stars_count, updated_days_ago)
 
-            a[0].insert_after(tag)
+            if a[0] in visited:
+                continue
+            else:
+                visited.add(a[0])
+                a[0].insert_after(tag)
 
-f = open('awesome_go_with_repo_info.html', 'w')
+filename = file_path_prefix + config[project_name]['name'] + '_with_repo_info'
+f = open(filename + '.html', 'w')
 
 f.write(soup.prettify(formatter=None))
 del f
 
 subprocess.check_call(
-['pandoc', 'awesome_go_with_repo_info.html', '-f', 'html', '-t', 'markdown_github', '-s', '-o', 'awesome_go_with_repo_info.md'])
+['pandoc', filename + '.html', '-f', 'html', '-t', 'markdown_github', '-s', '-o', filename + '.md'])

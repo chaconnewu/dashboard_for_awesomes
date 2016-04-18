@@ -20,10 +20,10 @@ conn = pymysql.connect(
     db=config['database']['db'],
     autocommit=True
     )
-    
+
 cur = conn.cursor()
 
-repo_table_name = 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
+repo_table_name = config['awesome']['name'] + '_' + 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
 
 # Remove all previous records
 query = '''create table ''' + repo_table_name + '''
@@ -53,7 +53,7 @@ query = '''create table ''' + repo_table_name + '''
 
 cur.execute(query)
 
-f = open('awesome_go_github_repos.txt', 'r').read()
+f = open('awesome_github_repos.txt', 'r').read()
 # f = open('diffs.txt', 'r').read()
 
 url_list = f.split('\n')[:-1] # get rid of the last empty one

@@ -1,0 +1,14 @@
+current: awesome
+database:
+  user:
+  password: 
+  db:
+github_credential:
+  username:
+  password:
+awesome_go:
+  name: awesome_go
+  url: https://raw.githubusercontent.com/avelino/awesome-go/master/README.md
+awesome:
+  name: awesome
+  url: https://raw.githubusercontent.com/sindresorhus/awesome/master/readme.md

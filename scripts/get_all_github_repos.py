@@ -12,14 +12,16 @@ from datetime import datetime
 with open('config.yml', 'r') as config_file:
     config = yaml.load(config_file)
 
-awesome_url = config['awesome-go']['url']
+project_name = config['current']
+project_readme_raw_url = config[project_name]['url']
+awesome_url = config[project_name]['url']
 
 # Load Markdown content and convert it into HTML
-f = open('awesome-go.md', 'wb')
-f.write(requests.get("https://raw.githubusercontent.com/avelino/awesome-go/master/README.md").content)
+f = open(project_name + '.md', 'wb')
+f.write(requests.get(project_readme_raw_url).content)
 del f
 
-content = open('awesome-go.md', 'r').read()
+content = open(project_name + '.md', 'r').read()
 content = content.replace('] (http', '](http')
 markdown = mistune.Markdown()
 soup = BeautifulSoup(markdown(content), 'html.parser')
@@ -32,7 +34,7 @@ for li in lis:
     if len(a) > 0 and re.search('^https://github.com/[^/]+/[^/]+/?$', repo_url):
         github_repo_urls.add(repo_url)
 
-f = open('awesome_go_github_repos.txt', 'w')
+f = open(project_name + '_github_repos.txt', 'w')
 
 f.write('\n'.join([x for x in github_repo_urls]))
 del f
