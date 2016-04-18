@@ -5,11 +5,13 @@ import yaml
 import iso8601
 import pytz
 import subprocess
+import html.parser
 
 from bs4 import BeautifulSoup, Tag
 from datetime import datetime, timedelta
 from dateutil.parser import parse
 
+h = html.parser.HTMLParser()
 
 with open('config.yml', 'r') as config_file:
     config = yaml.load(config_file)
@@ -51,13 +53,13 @@ for li in lis:
 
             updated_days_ago = (datetime.now(pytz.utc)- updated_at_datetime).days
             tag = soup.new_tag('span')
-            tag.string = ' &#9733 %d, updated %d days ago ' % (stars_count, updated_days_ago)
+            tag.string = ' &#9733%d, updated %d days ago ' % (stars_count, updated_days_ago)
 
             a[0].insert_after(tag)
 
 f = open('awesome_go_with_repo_info.html', 'w')
 
-f.write(soup.prettify())
+f.write(soup.prettify(formatter=None))
 del f
 
 subprocess.check_call(
