@@ -18,6 +18,7 @@ conn = pymysql.connect(host='127.0.0.1', charset='utf8', use_unicode=True, unix_
 cur = conn.cursor()
 cur = conn.cursor()
 repo_table_name = 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
+# repo_table_name = 'github_repos_2016_04_17'
 
 time_format = '%Y-%m-%d'
 current_time = datetime.now()
@@ -27,7 +28,7 @@ previous_month = (current_time - timedelta(days=30)).strftime(time_format)
 
 def determine_stats(stats_type):
     if stats_type == 'star':
-        return ['WatchEvent', 'starred', '&#9733']
+        return ['WatchEvent', 'starred', ':star:']
     elif stats_type == 'active':
         return ['PushEvent',  'active', 'Pushes']
     elif stats_type == 'pull request':
@@ -59,7 +60,7 @@ def generating_stats(stats_type, time_type, current, num=None):
         table_list.append([simplified_name, repo_url, str(increased_star_count), str(stars_count), description])
 
     html_str = '<h2>Most %s repos in the past %s (from %s to %s)</h2>' % (header_text, time_type, time_period, current)
-    table_html_str = '<table><tr><th>Repo name</th><th>&#8593%s </th><th>&#9733</th><th>Description</th></tr>' % (table_header_text)
+    table_html_str = '<table><tr><th>Repo name</th><th>&#8593%s </th><th>:star:</th><th>Description</th></tr>' % (table_header_text)
 
     for row in table_list:
         table_html_str += '<tr>'
@@ -92,7 +93,7 @@ def generating_inactive_repos(query_repo, query_activity, header):
 
     header += ' (%d repos)' % (len(inactive_repos))
     html_str = '<h2>%s</h2>' % (header)
-    table_html_str = '<table><tr><th>Repo name</th><th>&#9733</th><th>Description</th></tr>'
+    table_html_str = '<table><tr><th>Repo name</th><th>:star:</th><th>Description</th></tr>'
     for row in inactive_repos:
         url, stars_count, description = row
         repo_name = urlparse(url).path.split('/')[-1]
