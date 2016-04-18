@@ -28,8 +28,8 @@ conn = pymysql.connect(
     )
 
 cur = conn.cursor()
-# repo_table_name = 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
-repo_table_name = 'github_repos_2016_04_17'
+repo_table_name = 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
+# repo_table_name = 'github_repos_2016_04_17'
 
 # Load awesome-* with BeautifulSoup
 content = open('awesome-go.md', 'r').read()
