@@ -26,7 +26,7 @@ project_name = config['current']
 file_path_prefix = '../awesomes/'
 repo_table_name = config[project_name]['name'] + '_' + 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
 
-query = '''create table ''' + repo_table_name + '''
+query = '''create table if not exists ''' + repo_table_name + '''
 (
      created_at varchar(255),
      description varchar(2048),
