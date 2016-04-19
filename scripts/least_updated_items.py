@@ -62,7 +62,7 @@ for li in lis:
             updated_days_ago = (datetime.now(pytz.utc)- updated_at_datetime).days
             if updated_days_ago >= 90:
                 html_str += str(li)
-
+html_str += '</ul>'
 filename = file_path_prefix + 'least_updated_items_in_' + project_name
 f = open(filename + '.html', 'w')
 f.write(html_str)
