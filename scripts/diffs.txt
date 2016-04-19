@@ -1,0 +1,13 @@
+https://github.com/JavaBy/awesome-kotlin
+https://github.com/vinkla/share-links
+https://github.com/MaciejCzyzewski/retter
+https://github.com/JanWerder/awesome-love2d
+https://github.com/jugoncalves/awesome-answers
+https://github.com/mat0thew/awesome-asm
+https://github.com/okulbilisim/awesome-datascience
+https://github.com/friendsofcake/awesome-cakephp
+https://github.com/najela/discount-for-student-dev
+https://github.com/NoahBuscher/Inspire
+https://github.com/nacyot/awesome-opensource-documents
+https://github.com/igorbarinov/awesome-bitcoin/
+https://github.com/ibaaj/awesome-OpenSourcePhotography/

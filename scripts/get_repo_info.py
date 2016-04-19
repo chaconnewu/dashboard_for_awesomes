@@ -22,10 +22,10 @@ conn = pymysql.connect(
     )
 
 cur = conn.cursor()
+project_name = config['current']
+file_path_prefix = '../awesomes/'
+repo_table_name = config[project_name]['name'] + '_' + 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
 
-repo_table_name = config['awesome']['name'] + '_' + 'github_repos_' + datetime.now().strftime('%Y_%m_%d')
-
-# Remove all previous records
 query = '''create table ''' + repo_table_name + '''
 (
      created_at varchar(255),
@@ -34,7 +34,7 @@ query = '''create table ''' + repo_table_name + '''
      forks_count int,
      full_name varchar(255),
      homepage varchar(255),
-     id int,
+     id int primary key,
      language varchar(255),
      name varchar(255),
      open_issues_count int,
@@ -53,7 +53,9 @@ query = '''create table ''' + repo_table_name + '''
 
 cur.execute(query)
 
-f = open('awesome_github_repos.txt', 'r').read()
+filename = file_path_prefix + project_name + '_github_repos.txt'
+
+f = open(filename, 'r').read()
 # f = open('diffs.txt', 'r').read()
 
 url_list = f.split('\n')[:-1] # get rid of the last empty one
@@ -100,9 +102,9 @@ for idx, item_url in enumerate(url_list):
             continue
         else:
             print('failed at: %d, %s' % (idx, repo_url))
-            print(content)
+            # print(content)
             print(insert_query)
-            break
+            # break
 
 for item in missed:
     print(item)

@@ -74,12 +74,12 @@ Programming Languages
     -   [Network Layer](https://github.com/Kikobeats/awesome-network-js) <span> | ★ 215, pushed 30 days ago | </span>
     -   [Micro npm Packages](https://github.com/parro-it/awesome-micro-npm-packages) <span> | ★ 232, pushed 3 days ago | </span>
     -   [Mad Science npm Packages](https://github.com/feross/awesome-mad-science) <span> | ★ 446, pushed 54 days ago | </span>
-    -   [Maintenance Modules](https://github.com/maxogden/maintenance-modules) <span> | ★ 228, pushed 88 days ago | </span> *(for npm packages)*
+    -   [Maintenance Modules](https://github.com/maxogden/maintenance-modules) <span> | ★ 228, pushed 89 days ago | </span> *(for npm packages)*
     -   [npm](https://github.com/sindresorhus/awesome-npm) <span> | ★ 1686, pushed 3 days ago | </span>
     -   [AVA](https://github.com/sindresorhus/awesome-ava) <span> | ★ 95, pushed 0 days ago | </span> *(Test runner)*
     -   [ESLint](https://github.com/dustinspecker/awesome-eslint) <span> | ★ 113, pushed 0 days ago | </span>
 -   [Swift](https://github.com/matteocrippa/awesome-swift) <span> | ★ 7765, pushed 0 days ago | </span>
-    -   [Education](https://github.com/hsavit1/Awesome-Swift-Education) <span> | ★ 4431, pushed 7 days ago | </span>
+    -   [Education](https://github.com/hsavit1/Awesome-Swift-Education) <span> | ★ 4431, pushed 8 days ago | </span>
     -   [Playgrounds](https://github.com/uraimo/Awesome-Swift-Playgrounds) <span> | ★ 397, pushed 6 days ago | </span>
 -   [Python](https://github.com/vinta/awesome-python) <span> | ★ 20041, pushed 0 days ago | </span>
 -   [Rust](https://github.com/kud1ing/awesome-rust) <span> | ★ 2028, pushed 1 days ago | </span>
@@ -146,7 +146,7 @@ Front-end Development
 -   [Ember](https://github.com/nmec/awesome-ember) <span> | ★ 123, pushed 2 days ago | </span>
 -   [Android UI](https://github.com/wasabeef/awesome-android-ui) <span> | ★ 13627, pushed 13 days ago | </span>
 -   [iOS UI](https://github.com/cjwirth/awesome-ios-ui) <span> | ★ 7817, pushed 30 days ago | </span>
--   [Meteor](https://github.com/Urigo/awesome-meteor) <span> | ★ 537, pushed 14 days ago | </span>
+-   [Meteor](https://github.com/Urigo/awesome-meteor) <span> | ★ 537, pushed 15 days ago | </span>
 -   [BEM](https://github.com/sturobson/BEM-resources) <span> | ★ 143, pushed 16 days ago | </span>
 -   [Flexbox](https://github.com/afonsopacifer/awesome-flexbox) <span> | ★ 325, pushed 4 days ago | </span>
 -   [Web Typography](https://github.com/deanhume/typography) <span> | ★ 142, pushed 33 days ago | </span>
@@ -159,7 +159,7 @@ Front-end Development
 -   [Web Audio](https://github.com/notthetup/awesome-webaudio) <span> | ★ 147, pushed 8 days ago | </span>
 -   [Offline-First](https://github.com/pazguille/offline-first) <span> | ★ 1384, pushed 29 days ago | </span>
 -   [Static Website Services](https://github.com/aharris88/awesome-static-website-services) <span> | ★ 170, pushed 4 days ago | </span>
--   [A-Frame VR](https://github.com/aframevr/awesome-aframe) <span> | ★ 203, pushed 6 days ago | </span> *(Virtual reality)*
+-   [A-Frame VR](https://github.com/aframevr/awesome-aframe) <span> | ★ 203, pushed 7 days ago | </span> *(Virtual reality)*
 -   [Cycle.js](https://github.com/vic/awesome-cyclejs) <span> | ★ 302, pushed 4 days ago | </span>
 -   [Text Editing](https://github.com/dok/awesome-text-editing) <span> | ★ 7, pushed 40 days ago | </span>
 -   [Motion UI Design](https://github.com/fliptheweb/motion-ui-design) <span> | ★ 222, pushed 18 days ago | </span>
@@ -188,7 +188,7 @@ Back-end Development
     -   [Gems](https://github.com/hothero/awesome-rails-gem) <span> | ★ 1604, pushed 18 days ago | </span>
 -   [Phalcon](https://github.com/sergeyklay/awesome-phalcon) <span> | ★ 171, pushed 16 days ago | </span>
 -   [Useful `     .htaccess    ` Snippets](https://github.com/phanan/htaccess) <span> | ★ 9193, pushed 12 days ago | </span>
--   [nginx](https://github.com/fcambus/nginx-resources) <span> | ★ 1615, pushed 50 days ago | </span>
+-   [nginx](https://github.com/fcambus/nginx-resources) <span> | ★ 1615, pushed 51 days ago | </span>
 -   [Dropwizard](https://github.com/stve/awesome-dropwizard) <span> | ★ 11, pushed 3 days ago | </span>
 -   [Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) <span> | ★ 132, pushed 11 days ago | </span>
 -   [Lumen](https://github.com/unicodeveloper/awesome-lumen) <span> | ★ 56, pushed 22 days ago | </span>
@@ -197,7 +197,7 @@ Computer Science
 ----------------
 
 -   [University Courses](https://github.com/prakhar1989/awesome-courses) <span> | ★ 14808, pushed 6 days ago | </span>
--   [Data Science](https://github.com/okulbilisim/awesome-datascience)
+-   [Data Science](https://github.com/okulbilisim/awesome-datascience) <span> | ★ 2293, pushed 0 days ago | </span>
 -   [Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) <span> | ★ 12376, pushed 2 days ago | </span>
     -   [Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) <span> | ★ 2178, pushed 64 days ago | </span>
 -   [Speech and Natural Language Processing](https://github.com/edobashira/speech-language-processing) <span> | ★ 1186, pushed 91 days ago | </span>
@@ -210,7 +210,7 @@ Computer Science
 -   [Open Source Society University](https://github.com/open-source-society/computer-science) <span> | ★ 13563, pushed 0 days ago | </span>
 -   [Functional Programming](https://github.com/lucasviola/awesome-functional-programming) <span> | ★ 114, pushed 49 days ago | </span>
 -   [Static Analysis & Code Quality](https://github.com/mre/awesome-static-analysis) <span> | ★ 68, pushed 10 days ago | </span>
--   [Software-Defined Networking](https://github.com/sdnds-tw/awesome-sdn) <span> | ★ 18, pushed 32 days ago | </span>
+-   [Software-Defined Networking](https://github.com/sdnds-tw/awesome-sdn) <span> | ★ 18, pushed 33 days ago | </span>
 
 Big Data
 --------
@@ -261,7 +261,7 @@ Gaming
 -   [Unity](https://github.com/RyanNielson/awesome-unity) <span> | ★ 524, pushed 4 days ago | </span> *(Game engine)*
 -   [Chess](https://github.com/hkirat/awesome-chess) <span> | ★ 18, pushed 20 days ago | </span>
 -   [LÖVE](https://github.com/JanWerder/awesome-love2d) *(Game engine)*
--   [PICO-8](https://github.com/felipebueno/awesome-PICO-8) <span> | ★ 83, pushed 17 days ago | </span> *(Fantasy console)*
+-   [PICO-8](https://github.com/felipebueno/awesome-PICO-8) <span> | ★ 83, pushed 18 days ago | </span> *(Fantasy console)*
 
 Development Environment
 -----------------------
@@ -275,7 +275,7 @@ Development Environment
 -   [GitHub](https://github.com/phillipadsmith/awesome-github) <span> | ★ 183, pushed 29 days ago | </span>
     -   [Browser Extensions](https://github.com/stefanbuck/awesome-browser-extensions-for-github) <span> | ★ 441, pushed 9 days ago | </span>
     -   [Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) <span> | ★ 18418, pushed 12 days ago | </span>
--   [Git Cheat Sheet & Git Flow](https://github.com/arslanbilal/git-cheat-sheet) <span> | ★ 1133, pushed 34 days ago | </span>
+-   [Git Cheat Sheet & Git Flow](https://github.com/arslanbilal/git-cheat-sheet) <span> | ★ 1133, pushed 35 days ago | </span>
 -   [Git Tips](https://github.com/git-tips/tips) <span> | ★ 497, pushed 0 days ago | </span>
 -   [Git Add-ons](https://github.com/stevemao/awesome-git-addons) <span> | ★ 221, pushed 37 days ago | </span>
 -   [SSH](https://github.com/moul/awesome-ssh) <span> | ★ 312, pushed 31 days ago | </span>
@@ -319,7 +319,7 @@ Learn
 -   [Speaking](https://github.com/matteofigus/awesome-speaking) <span> | ★ 354, pushed 97 days ago | </span>
 -   [Tech Videos](https://github.com/lucasviola/awesome-tech-videos) <span> | ★ 115, pushed 100 days ago | </span>
 -   [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) <span> | ★ 5094, pushed 6 days ago | </span>
--   [Computer History](https://github.com/watson/awesome-computer-history) <span> | ★ 576, pushed 5 days ago | </span>
+-   [Computer History](https://github.com/watson/awesome-computer-history) <span> | ★ 576, pushed 6 days ago | </span>
 
 Security
 --------
@@ -355,7 +355,7 @@ Miscellaneous
 -   [Open Companies](https://github.com/opencompany/awesome-open-company) <span> | ★ 90, pushed 104 days ago | </span>
 -   [REST](https://github.com/marmelab/awesome-rest) <span> | ★ 612, pushed 52 days ago | </span>
 -   [Selenium](https://github.com/christian-bromann/awesome-selenium) <span> | ★ 97, pushed 13 days ago | </span>
--   [Endangered Languages](https://github.com/RichardLitt/endangered-languages) <span> | ★ 78, pushed 22 days ago | </span>
+-   [Endangered Languages](https://github.com/RichardLitt/endangered-languages) <span> | ★ 78, pushed 23 days ago | </span>
 -   [Continuous Delivery](https://github.com/ciandcd/awesome-ciandcd) <span> | ★ 155, pushed 25 days ago | </span>
 -   [Services Engineering](https://github.com/mmcgrana/services-engineering) <span> | ★ 2050, pushed 255 days ago | </span>
 -   [Free for Developers](https://github.com/ripienaar/free-for-dev) <span> | ★ 13016, pushed 2 days ago | </span>
@@ -385,7 +385,7 @@ Miscellaneous
 -   [Niche Job Boards](https://github.com/wfhio/awesome-job-boards) <span> | ★ 29, pushed 19 days ago | </span>
 -   [Data Visualization](https://github.com/fasouto/awesome-dataviz) <span> | ★ 421, pushed 28 days ago | </span>
 -   [Social Media Share Links](https://github.com/vinkla/share-links)
--   [JSON Datasets](https://github.com/jdorfman/awesome-json-datasets) <span> | ★ 83, pushed 125 days ago | </span>
+-   [JSON Datasets](https://github.com/jdorfman/awesome-json-datasets) <span> | ★ 83, pushed 126 days ago | </span>
 -   [Microservices](https://github.com/mfornos/awesome-microservices) <span> | ★ 830, pushed 1 days ago | </span>
 -   [Unicode Code Points](https://github.com/Codepoints/awesome-codepoints) <span> | ★ 80, pushed 62 days ago | </span>
 -   [Internet of Things](https://github.com/HQarroum/awesome-iot) <span> | ★ 205, pushed 58 days ago | </span>
