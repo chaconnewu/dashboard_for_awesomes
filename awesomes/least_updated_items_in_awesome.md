@@ -1,0 +1,47 @@
+[Cordova](https://github.com/busterc/awesome-cordova)
+
+[Dart](https://github.com/yissachar/awesome-dart)
+
+[Coldfusion](https://github.com/seancoyne/awesome-coldfusion)
+
+[Fortran](https://github.com/rabbiabram/awesome-fortran)
+
+[Web Components](https://github.com/mateusortiz/webcomponents-the-right-way)
+
+[Dojo Toolkit](https://github.com/peterkokot/awesome-dojo)
+
+[Inspiration](https://github.com/NoahBuscher/Inspire)
+
+[Play1 Framework](https://github.com/PerfectCarl/awesome-play1)
+
+[Speech and Natural Language Processing](https://github.com/edobashira/speech-language-processing)
+
+-   [Spanish](https://github.com/dav009/awesome-spanish-nlp)
+
+[Spanish](https://github.com/dav009/awesome-spanish-nlp)
+
+[Linguistics](https://github.com/theimpossibleastronaut/awesome-linguistics)
+
+[Cryptography](https://github.com/MaciejCzyzewski/retter)
+
+[Dev Env](https://github.com/jondot/awesome-devenv)
+
+[Speaking](https://github.com/matteofigus/awesome-speaking)
+
+[Tech Videos](https://github.com/lucasviola/awesome-tech-videos)
+
+[Radio](https://github.com/kyleterry/awesome-radio)
+
+[Open Companies](https://github.com/opencompany/awesome-open-company)
+
+[Services Engineering](https://github.com/mmcgrana/services-engineering)
+
+[Sketch](https://github.com/diessica/awesome-sketch) *(OS X app)*
+
+[FOSS Production Apps](https://github.com/jwaterfaucett/awesome-foss-apps)
+
+[Answers](https://github.com/stoeffel/awesome-ama-answers)
+
+[Productivity](https://github.com/jyguyomarch/awesome-productivity)
+
+[JSON Datasets](https://github.com/jdorfman/awesome-json-datasets)
