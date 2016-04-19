@@ -131,7 +131,7 @@ Admin Interface
 -   [bhf](http://antpaw.github.io/bhf/) - A simple to use Rails-Engine-Gem that offers an admin interface for trusted user.
 -   [Faalis](http://faalis.io) - A Rails engine which provides a robust platform to develop web applications. It contains a very simple yet powerful admin/dashboard interface too.
 -   [RailsAdmin](https://github.com/sferik/rails_admin) <span> | ★ 5947, pushed 0 days ago | </span> - A Rails engine that provides an easy-to-use interface for managing your data.
--   [Typus](https://github.com/typus/typus) <span> | ★ 1089, pushed 27 days ago | </span> - Ruby on Rails control panel to allow trusted users edit structured content.
+-   [Typus](https://github.com/typus/typus) <span> | ★ 1089, pushed 28 days ago | </span> - Ruby on Rails control panel to allow trusted users edit structured content.
 -   [Upmin Admin](https://github.com/upmin/upmin-admin-ruby) <span> | ★ 819, pushed 18 days ago | </span> - A framework for creating powerful Ruby on Rails admin backends with minimal effort.
 
 Analytics
@@ -756,7 +756,7 @@ ORM/ODM
 -   [Hanami::Model](https://github.com/hanami/model) <span> | ★ 249, pushed 3 days ago | </span> - A lean Repository-pattern based ORM framework for Hanami and modern Ruby applications.
 -   [Mongoid](https://github.com/mongoid/mongoid) <span> | ★ 7, pushed 68 days ago | </span> - An ODM (Object-Document-Mapper) framework for MongoDB in Ruby.
 -   [MongoMapper](https://github.com/mongomapper/mongomapper) <span> | ★ 1627, pushed 5 days ago | </span> - A Ruby Object Mapper for Mongo.
--   [MongoModel](https://github.com/spohlenz/mongomodel) <span> | ★ 44, pushed 318 days ago | </span> - Ruby ODM for interfacing with MongoDB databases.
+-   [MongoModel](https://github.com/spohlenz/mongomodel) <span> | ★ 44, pushed 319 days ago | </span> - Ruby ODM for interfacing with MongoDB databases.
 -   [Neo4j.rb](http://neo4jrb.io) - A Neo4j OGM (Object-Graph-Mapper) for use in Ruby on Rails and Rack frameworks heavily inspired by ActiveRecord.
 -   [NoBrainer](https://github.com/nviennot/nobrainer/) - A RethinkDB ORM for Ruby
 -   [Ohm](https://github.com/soveran/ohm) <span> | ★ 1110, pushed 4 days ago | </span> - Object-hash mapping library for Redis.
