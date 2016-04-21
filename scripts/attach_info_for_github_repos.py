@@ -1,4 +1,5 @@
-import mistune
+# import mistune
+import markdown2
 import re
 import pymysql
 import yaml
@@ -38,8 +39,9 @@ repo_table_name = config[project_name]['name'] + '_' + 'github_repos_' + datetim
 # Load awesome-* with BeautifulSoup
 content = open(file_path_prefix + project_name + '.md', 'r').read()
 content = content.replace('] (http', '](http')
-markdown = mistune.Markdown()
-soup = BeautifulSoup(markdown(content), 'html.parser')
+# markdown = mistune.Markdown()
+markdown = markdown2.Markdown()
+soup = BeautifulSoup(markdown.convert(content), 'html.parser')
 
 lis = soup.find_all('li');
 
@@ -74,4 +76,4 @@ f.write(soup.prettify(formatter=None))
 del f
 
 subprocess.check_call(
-['pandoc', filename + '.html', '-f', 'html', '-t', 'markdown_github', '-s', '-o', filename + '.md'])
+['pandoc', filename + '.html', '-f', 'markdown_strict', '-t', 'markdown_github', '-o', filename + '.md'])
