@@ -47,9 +47,9 @@ visited = set()
 
 for li in lis:
     a = li.find_all('a')
-    repo_url = a[0]['href']
 
-    if len(a) > 0 and re.search('^https://github.com/[^/]+/[^/]+/?$', repo_url):
+    if len(a) > 0 and re.search('^https://github.com/[^/]+/[^/]+/?$', a[0]['href']):
+        repo_url = a[0]['href']
         query = "select stargazers_count, pushed_at from %s where repo_url='%s'" %(repo_table_name, repo_url)
         cur.execute(query)
         rows = cur.fetchall()

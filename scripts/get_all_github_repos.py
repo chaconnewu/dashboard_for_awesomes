@@ -31,9 +31,9 @@ lis = soup.find_all('li');
 github_repo_urls = set()
 for li in lis:
     a = li.find_all('a')
-    repo_url = a[0]['href']
-    if len(a) > 0 and re.search('^https://github.com/[^/]+/[^/]+/?$', repo_url):
-        github_repo_urls.add(repo_url)
+
+    if len(a) > 0 and re.search('^https://github.com/[^/]+/[^/]+/?$', a[0]['href']):
+        github_repo_urls.add(a[0]['href'])
 
 f = open(github_repo_urls_file + '_github_repos.txt', 'w')
 
