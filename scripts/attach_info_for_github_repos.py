@@ -60,7 +60,7 @@ for li in lis:
             updated_at_datetime = parse(updated_at)
 
             updated_days_ago = (datetime.now(pytz.utc)- updated_at_datetime).days
-            tag = soup.new_tag('sup')
+            tag = soup.new_tag('span')
             tag.string = '| &#9733 %d, pushed %d days ago | ' % (stars_count, updated_days_ago)
 
             if a[0] in visited:
@@ -76,4 +76,4 @@ f.write(soup.prettify(formatter=None))
 del f
 
 subprocess.check_call(
-['pandoc', filename + '.html', '-f', 'markdown_strict', '-t', 'markdown_github', '-o', filename + '.md'])
+['pandoc', filename + '.html', '-f', 'html', '-t', 'markdown_github', '-o', filename + '.md'])
