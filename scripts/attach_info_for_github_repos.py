@@ -60,16 +60,16 @@ for li in lis:
             updated_at_datetime = parse(updated_at)
 
             updated_days_ago = (datetime.now(pytz.utc)- updated_at_datetime).days
-            # tag = soup.new_tag('span')
-            tag = soup.new_tag('sup')
-            # tag.string = '| &#9733 %d, pushed %d days ago | ' % (stars_count, updated_days_ago)
+            tag = soup.new_tag('span')
+            # tag = soup.new_tag('sup') # awesome-vue specific
             tag.string = ' &#9733 %d, pushed %d days ago ' % (stars_count, updated_days_ago)
+            # tag.string = ' &#9733 %d, pushed %d days ago ' % (stars_count, updated_days_ago) # awesome-vue specific
             if a[0] in visited:
                 continue
             else:
                 visited.add(a[0])
-                # a[0].insert_after(tag)
-                li.insert(len(li.contents), tag)
+                a[0].insert_after(tag)
+                # li.insert(len(li.contents), tag) # awesome-vue specific
 
 filename = file_path_prefix + config[project_name]['name'] + '_with_repo_info'
 f = open(filename + '.html', 'w')
