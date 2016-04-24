@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from dateutil import parser
 from dateutil.rrule import rrule, DAILY
 
-last_date = max([x.split(os.sep)[-1] for x in glob.glob("../data/*.json.gz")])[:10]
+last_date = max([x.split(os.sep)[-1] for x in glob.glob("../../data/*.json.gz")])[:10]
 # print(datetime.strptime('%Y-%m-%d', last_date))
 starting_date = parser.parse(last_date) + timedelta(days=1)
 ending_date = datetime.now() - timedelta(days=1)
