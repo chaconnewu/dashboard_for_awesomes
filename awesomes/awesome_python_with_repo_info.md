@@ -1015,7 +1015,7 @@ Science and Data Analysis
 -   [astropy](http://www.astropy.org/) - A community Python library for Astronomy.
 -   [bcbio-nextgen](https://github.com/chapmanb/bcbio-nextgen) <span> ★ 294, pushed 0 days ago </span> - A toolkit providing best-practice pipelines for fully automated high throughput sequencing analysis.
 -   [bccb](https://github.com/chapmanb/bcbb) <span> ★ 301, pushed 19 days ago </span> - Collection of useful code related to biological analysis.
--   [Biopython](http://biopython.org/wiki/Main_Page) - Biopython is a set of freely available tools for biological computation.
+-   [Biopython](http://biopython.org/wiki/Biopython) - Biopython is a set of freely available tools for biological computation.
 -   [blaze](http://blaze.readthedocs.org/en/latest/index.html) - NumPy and Pandas interface to Big Data.
 -   [cclib](http://cclib.github.io/) - A library for parsing and interpreting the results of computational chemistry packages.
 -   [NetworkX](https://networkx.github.io/) - A high-productivity software for complex networks.
