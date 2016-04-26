@@ -14,9 +14,10 @@ with open('config.yml', 'r') as config_file:
     config = yaml.load(config_file)
 
 access_token = config['access_token']
-repo = "avelino/awesome-go"
+project_name = config['current']
+repo = config[project_name]['full_name']
 
-fields = ["user_id", "username", "num_followers", "num_following", "num_repos","created_at","star_time"]
+fields = ["user_id", "username", "num_followers", "num_following", "num_repos","created_at","star_time","email"]
 page_number = 0
 users_processed = 0
 stars_remaining = True
@@ -69,28 +70,28 @@ with open('%s-stargazers.csv' % repo.split('/')[1], 'w') as stars:
     stars_writer.writerow(fields)
 
     for user in list_stars:
-    	username = user[0]
+        username = user[0]
 
-    	query_url = "https://api.github.com/users/%s?access_token=%s" % (username, access_token)
+        query_url = "https://api.github.com/users/%s?access_token=%s" % (username, access_token)
 
-    	req = Request(query_url)
-    	response = urlopen(req)
-    	data = json.loads(str(response.read(), 'utf8'))
+        req = Request(query_url)
+        response = urlopen(req)
+        data = json.loads(str(response.read(), 'utf8'))
 
-    	user_id = data['id']
-    	num_followers = data['followers']
-    	num_following = data['following']
-    	num_repos = data['public_repos']
+        user_id = data['id']
+        num_followers = data['followers']
+        num_following = data['following']
+        num_repos = data['public_repos']
+        email = data.get('email', 'None')
 
-    	created_at = datetime.datetime.strptime(data['created_at'],'%Y-%m-%dT%H:%M:%SZ')
-    	created_at = created_at + datetime.timedelta(hours=-5) # EST
-    	created_at = created_at.strftime('%Y-%m-%d %H:%M:%S')
+        created_at = datetime.datetime.strptime(data['created_at'],'%Y-%m-%dT%H:%M:%SZ')
+        created_at = created_at + datetime.timedelta(hours=-5) # EST
+        created_at = created_at.strftime('%Y-%m-%d %H:%M:%S')
 
-    	stars_writer.writerow([user_id, username, num_followers, num_following, num_repos, created_at, user[1]])
+        stars_writer.writerow([user_id, username, num_followers, num_following, num_repos, created_at, user[1], email])
 
-    	users_processed += 1
+        users_processed += 1
 
-    	if users_processed % 100 == 0:
-    		print("%s Users Processed: %s" % (users_processed, datetime.datetime.now()))
-
-		time.sleep(1) # stay within API rate limit of 5000 requests / hour + buffer
+        if users_processed % 100 == 0:
+        	print("%s Users Processed: %s" % (users_processed, datetime.datetime.now()))
+        time.sleep(1) # stay within API rate limit of 5000 requests / hour + buffer
