@@ -10,13 +10,13 @@ project_name = config['current']
 today = datetime.now().strftime('%Y-%m-%d')
 
 # Parse original .md to extract all GitHub repos
-subprocess.check_call(['python', 'get_all_github_repos.py'])
+subprocess.check_call(['python3', 'get_all_github_repos.py'])
 
 # Retrieve all repo info and store in database
-subprocess.check_call(['python', 'get_repo_info.py'])
+subprocess.check_call(['python3', 'get_repo_info.py'])
 
 # Attach stars count and last pushed date
-subprocess.check_call(['python', 'attach_info_for_github_repos.py'])
+subprocess.check_call(['python3', 'attach_info_for_github_repos.py'])
 
 # Update dashboard_for_awesomes
 # subprocess.check_call(['cd', '..'])

@@ -16,7 +16,7 @@ conn = pymysql.connect(
     use_unicode=True,
     unix_socket='/tmp/mysql.sock',
     user=config['database']['user'],
-    passwd=None,
+    passwd=str(config['database']['password']),
     db=config['database']['db'],
     autocommit=True
     )
