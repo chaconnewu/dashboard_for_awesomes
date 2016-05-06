@@ -581,6 +581,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
+* [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
 * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 * [werr](https://github.com/txgruppi/werr) - Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
@@ -752,6 +753,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries and tools for binary serialization*
 
 * [asn1](https://github.com/PromonLogicalis/asn1) - Asn.1 BER and DER encoding library for golang
+* [colfer](https://github.com/pascaldekloe/colfer) - Code generation for the Colfer binary format
 * [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go
   * [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
 * [go-codec](https://github.com/ugorji/go) - High Performance, feature-Rich, idiomatic encode, decode and rpc library for msgpack, cbor and json, with runtime-based OR code-generation support
