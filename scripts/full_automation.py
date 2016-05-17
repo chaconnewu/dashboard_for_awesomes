@@ -1,7 +1,7 @@
 import subprocess
 import yaml
 
-awesome_project_list = ['awesome_go', 'awesome_python', 'awesome_ruby']
+awesome_project_list = ['awesome_tensorflow', 'awesome_go', 'awesome_python', 'awesome_ruby']
 
 def process(project_name):
     with open('config.yml', 'r') as config_file:

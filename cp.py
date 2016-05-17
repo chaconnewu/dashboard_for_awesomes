@@ -1,7 +1,7 @@
 import subprocess
 
 
-items = ['awesome_go', 'awesome_ruby', 'awesome_python']
+items = ['awesome_go', 'awesome_ruby', 'awesome_python', 'awesome_tensorflow']
 
 for item in items:
     filename = './awesomes/' + item + '_with_repo_info.md'
